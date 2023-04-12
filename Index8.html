@@ -7,26 +7,37 @@
   <h1><font color="Gold" face="Comic Sans MS">Temat: Opis styl lokalny, liniowy, linijkowy.</font></h1>
   <OL TYPE=n START=1>
 <LI> 1)gdzie jest wstawiany, 
+  </OL>
+   <OL TYPE=Disc>
 <LI> Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).
   </OL>
+      <OL TYPE=n START=2>
 <LI> 2)składnia teoretyczna (w ramce, konieczne wcięcia),
+    </OL>
+   <OL TYPE=Disc>
 <LI>/* (head)
 (...)
 (style type="text/css")
- <![CDATA[
+ (![CDATA[
 selektor1 { cecha: wartość; cecha2: wartość2... }
 selektor2 { cecha: wartość; cecha2: wartość2... }
 (...)
-]]> 
-</style>
+]])
+(/style)
 (...)
-</head>*/
+(/head)*/
   gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.
   </OL>
+      <OL TYPE=n START=3>
 <LI> 3)jakie mogą być selektory,
+    </OL>
+   <OL TYPE=Disc>
 <LI> Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
   </OL>
+      <OL TYPE=n START=4>
 <LI> 4)jakie mogą być cechy i wartości.
+      </OL>
+   <OL TYPE=Disc>
 <LI> Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).
 Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
 Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.
