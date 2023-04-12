@@ -7,11 +7,24 @@
   <h1><font color="Gold" face="Comic Sans MS">Temat: Opis styl lokalny, liniowy, linijkowy.</font></h1>
   <OL TYPE=n START=1>
 <LI> 1)gdzie jest wstawiany, 
-<LI> DVI-A
+<LI> Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).
+  </OL>
 <LI> 2)składnia teoretyczna (w ramce, konieczne wcięcia),
-<LI> DVI-A
+<LI>/* (head)
+(...)
+(style type="text/css")
+ <![CDATA[
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+(...)
+]]> 
+</style>
+(...)
+</head>*/
+  </OL>
 <LI> 3)jakie mogą być selektory,
 <LI> DVI-A
+  </OL>
 <LI> 4)jakie mogą być cechy i wartości.
 <LI> DVI-A
 </OL>
