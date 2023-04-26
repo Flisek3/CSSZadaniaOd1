@@ -1,0 +1,32 @@
+<TD><br> <b> Kod HTML</b><br> <textarea cols="50" rows="19">
+<html>
+<head>
+<title>zadanie 13</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<LINK href="Flis_z13.css" rel="stylesheet" type="text/CSS">
+<body>
+<p class="ziel">:) Uśmiechnięty </font> </p> <br>
+<p class="nieb">:O Zaskoczony </font> </p> <br>
+<p class="ziel">;) Mruga oczkiem </font> </p> <br>
+<p class="nieb">:D Zadowolony</font> </p> <br>
+<p class="ziel">;-; płacze </font> </p> <br>
+<p class="nieb">:| poważny </font> </p> <br>
+
+</body>
+</html>
+</textarea> 
+</TD>
+<TD><br> <b> Kod CSS</b><br> <textarea cols="50" rows="19">
+p.ziel{
+font-family: Comic Sans MS;
+font-size:34px;
+color:lime;
+}
+p.nieb{
+font-family: Comic Sans MS;
+font-size:44px;
+color:Navy;
+}
+</textarea> 
+</TD>
